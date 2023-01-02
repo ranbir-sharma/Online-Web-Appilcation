@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CPEN322 Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://52.43.220.29/cpen322/test-a5.js" type="text/javascript"></script>
+      <!-- Linking the JavaScript file -->
+      <script src="/app.js"></script>
+  </head>
+  <body>
+    <!-- Start of my code -->
+    <div id = "app-view">
+      <!-- Unordered list -->
+      <ul id = "app-menu">
+        <!-- Menu item 1 -->
+
+        <li class = "menu-item">
+          
+          <img src = "assets/chat-icon.png" alt="Chat icon" width="50" height="50"> <a href="#/">Rooms</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        </li>
+        <!-- Menu item 2 -->
+        <li class = "menu-item">
+           
+           <img src = "assets/profile-icon.png" alt="Profile icon" width="50" height="50"> <a href="#/profile">Profile</a>
+
+        </li>
+      </ul>
+
+      <!-- Page Container -->
+      <div id = "page-view">
+        <!-- New Content for index.html -->
+        <div class = "content">
+          <!-- Unordered list -->
+          <ul class = "room-list">
+            <li> <a href = "#/chat/room-0">Chat Room - 0</a></li>
+            <li> <a href = "#/chat/room-1">Chat Room - 1</a></li>
+            <li> <a href = "#/chat/room-2">Chat Room - 2</a></li>
+            <li> <a href = "#/chat/room-3">Chat Room - 3</a></li>
+          </ul>
+          
+          <div class = "page-control"> 
+            <!-- For the text box and Send button -->
+            <input type="text">
+            <button type="button">Create Room</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

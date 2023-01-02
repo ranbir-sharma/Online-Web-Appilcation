@@ -1,0 +1,115 @@
+/* 1st condition  */
+@media only screen and (min-width: 1024px)
+{
+    #app-view {
+        width : 80%;
+    }
+}
+/* 2nd condition */
+@media only screen and (max-width: 1024px) and (min-width: 768px)
+{
+    #app-view {
+        width : 90%;
+    }
+}
+/* 3rd condition */
+@media only screen and (max-width: 768px)
+{
+    #app-view {
+        width : 100%;
+    }
+}
+/* 4th condition */
+div.message{
+    position: relative;
+    /* align-self: flex-start; */
+    left: 30px;
+    background-color: wheat;
+    outline-style: solid;
+    outline-color: black;
+    /* position: fixed; */
+
+}
+div.my-message{
+    
+    position: relative;
+    /* align-self: flex-end; */
+    right: 30px;
+    background-color:aqua;
+    outline-style: solid;
+    outline-color: black;
+}
+
+.message-list {
+    /* height: 5%;
+    width: 100%;
+    max-height: 5% ;
+    min-height: 0%; */
+    /* overflow-x:hidden; */
+    /* overflow-y:auto; */
+    /* overflow:auto; */
+    height: 545px;
+    width: 745px;
+        overflow-x:hidden; 
+     overflow-y:auto;
+}
+
+ /* 5th condition */
+#app-menu li :hover
+{
+    background-color: yellow;
+    color: yellow;
+}
+
+/* 6th condition */
+.room-list li :hover
+{
+    background-color: lightblue;
+}
+/* CSS implementation */
+.app-view{
+    color: white;
+    background-color: blue;
+}
+#app-menu{
+    color: white;
+    background-color: blue;
+}
+
+#app-menu li {
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+
+    /* Copied from https://stackoverflow.com/questions/1383143/how-to-prevent-line-breaks-in-list-items-using-css */
+  }
+
+.page-control
+{
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+}
+.page-control
+{
+  margin: auto;
+  width: 50%;
+  align-items: center;
+}
+ ul
+ {
+    list-style-type: none;
+ }
+ .room-list a
+ {
+    border-style: dashed;
+    border-color: black;
+    height:12px;
+    margin:auto;
+ }
+ .menu-item a{
+    color:white;
+ }
+
+
