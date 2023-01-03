@@ -10,7 +10,7 @@ This web application is a discussion forum where users can register, log in, and
 - REST endpoints for various actions within the application
 - SHA256 hash and cookie protection for secure login and logout, to prevent web attacks
 
-**Getting Started**
+## Getting Started
 
 To set up the application on your local machine, follow these steps:
 
